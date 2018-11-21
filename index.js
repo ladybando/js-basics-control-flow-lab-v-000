@@ -20,9 +20,8 @@ function ternaryCheckCity(city){
     case 'generous':
         charm = "Thank you so much.";
         break;
-    case 'user':
-        permissionsLevel = 10;
-        canViewProfiles = true;
+    case 'not as generous':
+        charm = "Thank you.";
         break;
     case 'admin':
         permissionsLevel = 20;
