@@ -14,10 +14,20 @@ function ternaryCheckCity(city){
    return (city === "NYC" ? "Ok, sounds good." : "No go.");
   }
   
-  function switchOnCharmFromTip(tip){
-    switch (tip){
-      case tip === 'generous':
+  function switchOnCharmFromTip(charm){
+    switch (charm){
+      case charm === 'generous':
         console.log("Thank you so much." );
-        break;
+      
     }
   }
+
+switch (true) {
+    case age >= 21:
+        canDrink = true;
+    case age >= 18:
+        isAdult = true;
+        canEnlist = true;
+    case age >= 16:
+        canWork = true;
+}
