@@ -24,6 +24,6 @@ function ternaryCheckCity(city){
       break;
       default:
         console.log("Bye." );
-      
+      break;
     }
   }
