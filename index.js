@@ -18,7 +18,7 @@ function ternaryCheckCity(city){
 
   switch (charm) {
     case 'generous':
-        charm = ;
+        charm = "Thank you so much.";
         break;
     case 'user':
         permissionsLevel = 10;
