@@ -20,7 +20,7 @@ function ternaryCheckCity(city){
         console.log("Thank you so much." );
          case charm === 'not as generous':
         console.log("Thank you." );
-         case charm === '':
+         break;
         console.log("Thank you so much." );
       
     }
