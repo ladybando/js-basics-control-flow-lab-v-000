@@ -21,7 +21,8 @@ function ternaryCheckCity(city){
          case charm === 'not as generous':
         console.log("Thank you." );
          break;
-        console.log("Thank you so much." );
+         default:
+        console.log("Bye." );
       
     }
   }
