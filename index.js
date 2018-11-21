@@ -12,6 +12,5 @@ function scuberGreetingForFeet(feet){
 }
 
 function ternaryCheckCity(city){
-  return 
+   return (city ? "NYC" : "Pittsburgh");
   }
-}
