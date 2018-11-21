@@ -23,10 +23,8 @@ function ternaryCheckCity(city){
     case 'not as generous':
         charm = "Thank you.";
         break;
-    case 'admin':
-        permissionsLevel = 20;
-        canViewProfiles = true;
-        canImpersonateUsers = true;
+    default:
+        charm = 'Bye.';
         break;
     }
   }
