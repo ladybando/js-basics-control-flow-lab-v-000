@@ -12,10 +12,6 @@ function scuberGreetingForFeet(feet){
 }
 
 function ternaryCheckCity(city){
-  switch (city) {
-  case city==='NYC':
-    console.log("Ok, sounds good.");
-   default:
-    console.log('Sorry, we are out of ' + city + '.');
+
   }
 }
