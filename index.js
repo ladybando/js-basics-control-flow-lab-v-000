@@ -18,10 +18,11 @@ function ternaryCheckCity(city){
     switch (charm){
       case charm === 'generous':
         console.log("Thank you so much." );
-         case charm === 'not as generous':
+        break;
+      case charm === 'not as generous':
         console.log("Thank you." );
-         break;
-         default:
+      break;
+      default:
         console.log("Bye." );
       
     }
