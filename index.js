@@ -26,13 +26,3 @@ function ternaryCheckCity(city){
       
     }
   }
-
-switch (true) {
-    case age >= 21:
-        canDrink = true;
-    case age >= 18:
-        isAdult = true;
-        canEnlist = true;
-    case age >= 16:
-        canWork = true;
-}
