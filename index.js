@@ -15,15 +15,19 @@ function ternaryCheckCity(city){
   }
   
   function switchOnCharmFromTip(charm){
-    switch (charm){
-      case charm === 'generous':
-        console.log("Thank you so much." );
+
+  switch (charm) {
+    case 'generous':
+        permissionsLevel = 0;
         break;
-      case charm === 'not as generous':
-        console.log("Thank you." );
-      break;
-      default:
-        console.log("Bye." );
-      break;
+    case 'user':
+        permissionsLevel = 10;
+        canViewProfiles = true;
+        break;
+    case 'admin':
+        permissionsLevel = 20;
+        canViewProfiles = true;
+        canImpersonateUsers = true;
+        break;
     }
   }
